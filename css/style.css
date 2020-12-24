@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #11999E;
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 350%;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Libre Baskerville', serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border: dotted #BEBEBE 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 50px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-msg {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.contact-me-btn {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.contact-me-btn:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 60px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 330px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-img {
+  width: 20%;
+  float: left;
+  margin-right: 20px;
+}
